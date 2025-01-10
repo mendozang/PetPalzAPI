@@ -20,4 +20,4 @@ COPY --from=build /app/out .
 EXPOSE 5120
 
 # Configura el comando de inicio de la aplicación
-ENTRYPOINT ["dotnet", "PetPalzAPI.dll"]
+ENTRYPOINT ["dotnet"]
