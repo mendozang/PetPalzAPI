@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: PetPalz API
+    env: dotnet
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/PetPalzAPI.dll
